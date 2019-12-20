@@ -6,12 +6,17 @@ brew install minikube
 ```
 ---
 
-Start a cluster using the virtualbox driver:
+install HyperKit
 ```bash
-minikube start --vm-driver=virtualbox
+brew install hyperkit
 ```
 
-To make virtualbox the default driver:
+Start a cluster using the hyperkit driver:
 ```bash
-minikube config set vm-driver virtualbox
+minikube start --vm-driver=hyperkit
+```
+
+To make hyperkit the default driver:
+```bash
+minikube config set vm-driver hyperkit
 ```
