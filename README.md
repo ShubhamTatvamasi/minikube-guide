@@ -4,20 +4,14 @@ install minikube on macOS
 ```bash
 brew install minikube
 ```
----
 
 install HyperKit
 ```bash
 brew install hyperkit
 ```
-
-Start a cluster using the hyperkit driver:
-```bash
-minikube start --vm-driver=hyperkit
-```
-
-
 ---
+
+
 
 list all the configs by minikube
 ```bash
@@ -49,7 +43,17 @@ unset config
 minikube config unset disk-size
 ```
 
+Start a cluster using the hyperkit driver:
+```bash
+minikube start --vm-driver=hyperkit
+```
+
 stop minikube
 ```bash
 minikube stop
+```
+
+delete minikube cluster
+```bash
+minikube delete
 ```
