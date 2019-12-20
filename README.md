@@ -20,3 +20,14 @@ To make hyperkit the default driver:
 ```bash
 minikube config set vm-driver hyperkit
 ```
+---
+
+Increasing memory allocation
+```bash
+minikube config set memory 4096
+```
+
+stop minikube
+```bash
+minikube stop
+```
