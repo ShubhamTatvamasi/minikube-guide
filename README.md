@@ -57,3 +57,8 @@ delete minikube cluster
 ```bash
 minikube delete
 ```
+
+tunnel makes services of type LoadBalancer accessible on localhost
+```bash
+minikube tunnel
+```
