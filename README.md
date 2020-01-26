@@ -11,8 +11,6 @@ brew install hyperkit
 ```
 ---
 
-
-
 list all the configs by minikube
 ```bash
 minikube config list
@@ -37,10 +35,18 @@ Check current custom configs
 ```bash
 minikube config view
 ```
+---
 
-unset config
+### unset config
+
+unset disk-size
 ```bash
 minikube config unset disk-size
+```
+
+unset dashboard
+```bash
+minikube config unset dashboard
 ```
 
 Start a cluster using the hyperkit driver:
