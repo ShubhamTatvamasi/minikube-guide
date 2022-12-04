@@ -2,7 +2,8 @@
 
 Launch minikube:
 ```bash
-multipass launch minikube
+multipass launch minikube \
+  --cpus 4
 ```
 
 Get access to minikube instance:
