@@ -10,3 +10,7 @@ Get access to minikube instance:
 multipass shell minikube
 ```
 
+Delete Instance:
+```bash
+multipass delete --purge minikube
+```
