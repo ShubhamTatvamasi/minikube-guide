@@ -1,5 +1,12 @@
 # minikube-guide
 
+Start minikube with CNI:
+```bash
+minikube start --network-plugin=cni --cni=calico
+```
+
+---
+
 install minikube on macOS
 ```bash
 brew install minikube
